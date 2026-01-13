@@ -1,6 +1,6 @@
 {
-  "name": "electron-debug-mcp",
-  "version": "1.0.0",
+  "name": "electron-mcp-server",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -8,10 +8,19 @@
     "dev": "tsc && node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["electron", "debug", "mcp", "model-context-protocol"],
-  "author": "",
+  "keywords": [
+    "electron",
+    "debug",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "Brandozip",
   "license": "ISC",
-  "description": "An MCP server for Electron debugging",
+  "description": "Enhanced MCP server for Electron debugging with full tool support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brandozip/electron-mcp-server.git"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.1.0",
     "electron": "^29.1.0",
